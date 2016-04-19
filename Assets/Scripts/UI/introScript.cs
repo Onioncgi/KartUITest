@@ -18,12 +18,13 @@ public class introScript : MonoBehaviour {
     public Canvas SelOkReturn;
 
 
-
+    public AudioClip PlaySound;
     /// <summary>
     /// panel showing 
     /// </summary>
     public GameObject expanel;
     public GameObject stpanel;
+    public GameObject lopanel;
     public static bool ishowing = false;
     public static bool EtShowing = false;
     static int setuptoreturn =(3);
@@ -46,12 +47,12 @@ public class introScript : MonoBehaviour {
 
         ////////
         
-        loadmenu = loadmenu.GetComponent<Canvas>();
-        PlayerSel = PlayerSel.GetComponent<Canvas>();
-        PlayerSetup = PlayerSetup.GetComponent<Canvas>();
-        BG = BG.GetComponent<Canvas>();
+        //loadmenu = loadmenu.GetComponent<Canvas>();
+        //PlayerSel = PlayerSel.GetComponent<Canvas>();
+       // PlayerSetup = PlayerSetup.GetComponent<Canvas>();
+       // BG = BG.GetComponent<Canvas>();
 
-        
+       
 
         KartSel = KartSel.GetComponent<Canvas>();
         KartSetup = KartSetup.GetComponent<Canvas>();
@@ -82,6 +83,7 @@ public class introScript : MonoBehaviour {
 
         stpanel = stpanel.GetComponent<GameObject>();
         expanel = expanel.GetComponent<GameObject>();
+        lopanel = lopanel.GetComponent<GameObject>();
 
         
 
@@ -94,6 +96,7 @@ public class introScript : MonoBehaviour {
     public void StartPanelV()
     {
         expanel.SetActive(false);
+        lopanel.SetActive(false);
         ishowing = !ishowing;
         stpanel.SetActive(ishowing);
         
@@ -116,7 +119,11 @@ public class introScript : MonoBehaviour {
     public void LoadPanel()
     {
         // for now this only display words as u press the exit panel
-        print("Load button is press");
+        lopanel.SetActive(true);
+        stpanel.SetActive(false);
+        EtShowing = !EtShowing;
+        expanel.SetActive(EtShowing);
+
     }
 
 

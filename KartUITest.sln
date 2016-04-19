@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KartUITest.CSharp.Plugins", "KartUITest.CSharp.Plugins.csproj", "{CF40FB57-3C00-3777-1A82-3D699C50DF0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KartUITest.CSharp", "KartUITest.CSharp.csproj", "{E7149449-3895-584D-1C98-56B768373B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KartUITest.CSharp.Editor", "KartUITest.CSharp.Editor.csproj", "{92BE6F36-A85A-AE76-467C-92B91444E91C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF40FB57-3C00-3777-1A82-3D699C50DF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF40FB57-3C00-3777-1A82-3D699C50DF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF40FB57-3C00-3777-1A82-3D699C50DF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF40FB57-3C00-3777-1A82-3D699C50DF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7149449-3895-584D-1C98-56B768373B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7149449-3895-584D-1C98-56B768373B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7149449-3895-584D-1C98-56B768373B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7149449-3895-584D-1C98-56B768373B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92BE6F36-A85A-AE76-467C-92B91444E91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92BE6F36-A85A-AE76-467C-92B91444E91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92BE6F36-A85A-AE76-467C-92B91444E91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92BE6F36-A85A-AE76-467C-92B91444E91C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
